@@ -1,0 +1,92 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Username": {
+      "type": "string"
+    },
+    "Pronouns": {
+      "type": "string"
+    },
+    "Birthday": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "URLTwitch": {
+      "type": "string"
+    },
+    "URLInstagram": {
+      "type": "string"
+    },
+    "URLYoutube": {
+      "type": "string"
+    },
+    "URLStore": {
+      "type": "string"
+    },
+    "URLWebsite": {
+      "type": "string"
+    },
+    "ZodiacSign": {
+      "type": "enumeration",
+      "enum": [
+        "Aries",
+        "Taurus",
+        "Gemini",
+        "Cancer",
+        "Leo",
+        "Virgo",
+        "Libra",
+        "Scorpio",
+        "Sagittarius",
+        "Capricorn",
+        "Aquarius",
+        "Pisces"
+      ]
+    },
+    "IsStreamer": {
+      "type": "boolean"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "ProfileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "ShowcaseImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "URLTwitter": {
+      "type": "string"
+    }
+  }
+}
